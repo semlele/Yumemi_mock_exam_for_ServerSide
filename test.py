@@ -14,7 +14,7 @@ for i in range(10,len(df_ranking)):
         df_ranking_top = df_ranking.head(i)
         break
 
-#rankメソッドで順位付けし、先頭列にrankを追加
+#rankメソッドで順位付けし、先頭にrank列を追加
 df_ranking_top.insert(0, "rank", df_ranking_top["score"].rank(ascending=False, method='min').astype(int))
 
 #3列のCSV形式で出力
