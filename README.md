@@ -16,12 +16,14 @@
 <br>
 <br>
 <br>
-以下の様にして, 適宜input fileを自分好みにカスタマイズできる.
+以下の様にして, 適宜自分好みにカスタマイズしたcsvを生成できる.
 ```
 python create_big_csv.py
 ```
+
 <br>
 pythonの解答コードは以下の様に動かせば, output.csvが生成される.
+
 ```
 python test.py big_test.csv
 ```
