@@ -8,13 +8,22 @@
 <br>
 **test.ipynb** ... 模試をJupyter Notebookで解答したコード
 <br>
-**test.csv** ... 疑似的に作成したinput file (行数が足りないなどの問題あり)
+**create_big_csv.py** ... 疑似的なinput fileの**big_test.csv**を生成するコード
+<br>
+**big_test.csv** ... **create_big_csv.py**で疑似的に作成したinput file (行数が多いだけなので, その他エラーを考慮したcsvにはなっていない.)
 <br>
 **output.csv** ... 解答の出力csvファイル
 <br>
 <br>
 <br>
-pythonの解答コードは以下の様に動かせば, output.csvが生成される.
+以下の様にして, 適宜自分好みにカスタマイズしたcsvを生成できる.
 ```
-python test.py test.csv
+python create_big_csv.py
+```
+
+<br>
+pythonの解答コードは以下の様に動かせば, output.csvが生成される.
+
+```
+python test.py big_test.csv
 ```
