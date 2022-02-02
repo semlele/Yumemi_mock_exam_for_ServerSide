@@ -10,7 +10,7 @@
 <br>
 **create_big_csv.py** ... 疑似的なinput fileの**big_test.csv**を生成するコード
 <br>
-**big_test.csv** ... **create_big_csv.py**で疑似的に作成したinput file (行数が多いだけなので、その他エラーを考慮したcsvにはなっていない。)
+**big_test.csv** ... **create_big_csv.py**で疑似的に作成したinput file (行数が多いだけなので, その他エラーを考慮したcsvにはなっていない.)
 <br>
 **output.csv** ... 解答の出力csvファイル
 <br>
